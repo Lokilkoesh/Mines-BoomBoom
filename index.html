@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minesweeper Game</title>
+</head>
+<body>
+    <div class="menu">
+        <h1>Select a Matrix Size</h1>
+        <button onclick="startGame(4)">4x4</button>
+        <button onclick="startGame(9)">9x9</button>
+        <button onclick="startGame(16)">16x16</button>
+    </div>
+
+    <div class="game" id="game" style="display: none;">
+        <div id="grid"></div>
+        <button id="restart" onclick="restartGame()">Restart Game</button>
+    </div>
+
+    <div class="modal" id="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Game Over!</h2>
+            <p>You hit a mine. Try again!</p>
+            <button onclick="restartGame()">Restart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
