@@ -1,7 +1,8 @@
 
 
 ### **Features:**
-![Screenshot 2024-09-26 122222](https://github.com/user-attachments/assets/2ff42d6e-82f6-4107-a346-026060a118df)
+![image](https://github.com/user-attachments/assets/caac438b-768f-4f6b-be3d-296844d8421a)
+
 
 - **Exciting Gameplay**: A thrilling game where players must avoid hidden mines while navigating a grid.
 - **Multiple Difficulty Levels**: Choose from easy, medium, and hard difficulty levels to test your strategic thinking.
